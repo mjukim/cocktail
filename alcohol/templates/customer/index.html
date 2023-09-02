@@ -1,0 +1,159 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Cocktail Recommend</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="{% static 'assets/favicon.ico' %}"/>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="{% url "index" %}">AI12기 Alcohol</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url "index" %}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'cocktail_info' %}">기존 칵테일 레시피 받기</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'new_recipe' %}">나만의 칵테일 레시피만들기</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url "alcohol" %}">종류 보기</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5">
+            <!-- Heading Row-->
+            <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="{% static 'img/cocktail01.jpg' %}" alt="..." /></div>
+                <div class="col-lg-5">
+                    <h1 class="font-weight-light">보드카 마티니</h1>
+                    <p>젓지 말고 흔들어서</p>
+                    <a class="btn btn-primary" href="{% url 'cocktail_info' %}">기존 칵테일 레시피 받기!</a>
+                    <a class="btn btn-primary" href="{% url 'new_recipe' %}">칵테일 레시피 만들기!</a>
+                </div>
+            </div>
+            <!-- Call to Action-->
+            <div class="card text-white bg-secondary my-5 py-4 text-center">
+                <div class="card-body"><p class="text-white m-0">Alcohol를 사랑한 PM의 Final-Project!</p></div>
+            </div>
+            <!-- Content Row-->
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Whisky</h2>
+                            <p class="card-text">보리를 발효시켜 맥주와 비슷한 보리술을 만들고, 보리술을 증류하여 오크통에서 몇 년간 숙성시켜 위스키로 만든다. 현대에 이르러 옥수수, 밀, 귀리 등 어떤 곡식이든 발효시켜 증류한 후에 나무통에서 숙성시킨 술.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="{% url 'whisky_list' %}">위스키 종류 보기</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Jin</h2>
+                            <p class="card-text">호밀 등을 원료로 하고 두송자로 독특한 향기를 낸 무색투명한 술로 도수는 40~47도이다.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="{% url 'jin_list' %}">진 종류 보기</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Rum</h2>
+                            <p class="card-text">사탕수수를 착즙해서 설탕을 만들고 남은 찌꺼기인 당밀이나 사탕수수 즙을 발효시킨 뒤 증류한 술이다.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="{% url 'rum_list' %}">럼 종류 보기</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Tequila</h2>
+                            <p class="card-text">멕시코를 대표하는 증류주로서 알코올 농도는 35~55% 정도이다.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="{% url 'tequila_list' %}">데킬라 종류 보기</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Cognac</h2>
+                            <p class="card-text">와인을 증류하여 오크통에 넣어 몇 년 기다린 뒤 이 원액들을 한데 모아 블렌딩한 술.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="{% url 'cognac_list' %}">꼬냑 종류 보기</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Liqueur</h2>
+                            <p class="card-text">증류주나 주정에 당분을 넣고 과실이나 꽃, 식물의 잎이나 뿌리 등을 넣어 맛과 향기를 더한 술을 뜻한다.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="{% url 'liqueur_list' %}">리큐르 종류 보기</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Beer</h2>
+                            <p class="card-text">곡물로 만든 맥아(malt)를 발효시키고 이를 주재료로 향신료인 홉(hops)을 첨가하여 맛을 낸 술이다. 포도주와 함께 세계에서 가장 대중화된 주류 가운데 하나이자, 대표적인 양조주에 속한다.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="{% url 'beer_list' %}">맥주 종류 보기</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Sake</h2>
+                            <p class="card-text">사케는 쌀을 입국으로 발효시킨 후 여과하는 과정을 통해 만든 일본식 청주(淸酒)를 말한다.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="{% url 'sake_list' %}">사케 종류 보기</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Vodka</h2>
+                            <p class="card-text">양조주의 맛과 향을 최대한 죽이고 여러번 증류하여 제조하는 무색, 무미, 무취를 특징으로 하는 증류주.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="{% url 'vodka_list' %}">보드카 종류 보기</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Wine</h2>
+                            <p class="card-text">과실의 즙을 발효시켜서 만든 알코올성의 양조주이다.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="{% url 'wine_list' %}">와인 종류 보기</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">고량주</h2>
+                            <p class="card-text">고량주는 백주의 일종으로, 수수(고량, 高粱)를 주원료로 사용하여 만든 중국의 증류주다.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="{% url 'bbaigan_list' %}">고량주 종류 보기</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white"></p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'js/scripts.js' %}"></script>
+    </body>
+</html>

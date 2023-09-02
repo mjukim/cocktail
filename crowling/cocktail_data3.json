@@ -1,0 +1,188 @@
+[
+    {
+        "title": "Bellini",
+        "ingredients": "100ml Prosecco 50ml White Peach Puree",
+        "method": "Pour peach puree into the mixing glass with ice, add the Prosecco wine. Stir gently and pour in a chilled flute glass.",
+        "garnish": "N/A"
+    },
+    {
+        "title": "Corpse Reviver",
+        "ingredients": "30ml Gin 30ml Cointreau 30ml Lillet Blanc 30ml Fresh Lemon Juice1 dash Absinthe",
+        "method": "Pour all ingredients into shaker with ice. Shake well and strain in chilled cocktail glass.",
+        "garnish": "Garnish with orange zest"
+    },
+    {
+        "title": "Golden Dream",
+        "ingredients": "20ml Galliano 20ml Triple Sec 20ml Fresh Orange Juice 10ml Fresh Cream",
+        "method": "Pour all ingredients into shaker filled with ice. Shake briskly for few seconds. Strain into chilled cocktail glass.",
+        "garnish": "N/A"
+    },
+    {
+        "title": "KIR",
+        "ingredients": "90ml Dry White Wine 10ml Crème de Cassis",
+        "method": "Pour Crème de Cassis into glass, top up with white wine.Note:KIR ROYAL - Use Champagne instead of white wine",
+        "garnish": "N/A"
+    },
+    {
+        "title": "Mint Julep",
+        "ingredients": "60ml Bourbon Whiskey 4 fresh Mint sprigs 1 tsp Powdered Sugar 2 tsp Water",
+        "method": "In Julep Stainless Steel Cup gently muddle the mint with sugar and water. Fill the glass with cracked ice, add the Bourbon and stir well until the cup frosts.",
+        "garnish": "Garnish with a mint sprig."
+    },
+    {
+        "title": "Sea Breeze",
+        "ingredients": "40ml Vodka 120ml Cranberry Juice 30ml Grapefruit Juice",
+        "method": "Build all ingredients in a highball glass filled with ice.",
+        "garnish": "Garnish with orange zest and cherry"
+    },
+    {
+        "title": "Zombie",
+        "ingredients": "45ml Jamaican dark rum 45ml Gold Puerto Rican rum 30ml Demerara Rum 20ml Fresh lime juice 15ml Falernum 15ml Donn's Mix* 1 tsp Grenadine syrup 1 dash Angostura bitters 6 drops Pernod",
+        "method": "Add all ingredients into an electric blender with 170 grams of cracked ice. With pulse bottom blend for a few seconds. Serve in a tall tumbler glass.",
+        "garnish": "Garnish with mint leaves."
+    },
+    {
+        "title": "Black Russian",
+        "ingredients": "50ml Vodka 20ml Coffee Liqueur",
+        "method": "Pour the ingredients into the old fashioned glass filled with ice cubes. Stir gently.",
+        "garnish": "N/A"
+    },
+    {
+        "title": "Cosmopolitan",
+        "ingredients": "40ml Vodka Citron 15ml Cointreau 15ml Fresh Lime Juice 30ml Cranberry Juice",
+        "method": "Add all ingredients into a cocktail shaker filled with ice. Shake well and strain into a large cocktail glass.",
+        "garnish": "Garnish with a lemon twist."
+    },
+    {
+        "title": "Grasshopper",
+        "ingredients": "20ml Crème de Cacao (White) 20ml Crème de Menthe (Green) 20ml Fresh Cream",
+        "method": "Pour all ingredients into shaker filled with ice.Shake briskly for few seconds. Strain into chilled cocktail glass.",
+        "garnish": "N/A, optional mint leaf"
+    },
+    {
+        "title": "Long Island Ice Tea",
+        "ingredients": "15ml Vodka 15ml Tequila 15ml White rum 15ml Gin 15ml Cointreau 30ml Lemon juice 20ml Simple syrupTop with Cola",
+        "method": "Add all ingredients into a highball glass filled with ice.Stir gently.",
+        "garnish": "Lemon Slice (Optional)"
+    },
+    {
+        "title": "Mojito",
+        "ingredients": "45ml White Cuban Ron 20ml Fresh Lime Juice6 pcs Mint Sprigs2 tsp White Cane SugarSoda Water",
+        "method": "Mix mint springs with sugar and lime juice. Add splash of soda water and fill the glass with ice. Pour the rum and top with soda water. Light stir to involve all ingredients.",
+        "garnish": "Garnish with sprigs of mint and slice of lime."
+    },
+    {
+        "title": "Sex on the Beach",
+        "ingredients": "40ml Vodka 20ml Peach Schnapps 40ml Fresh Orange Juice 40ml Cranberry Juice",
+        "method": "Build all ingredients in a highball glass filled with ice.",
+        "garnish": "Garnish with a half orange slice."
+    },
+    {
+        "title": "Bloody Mary",
+        "ingredients": "45ml Vodka 90ml Tomato Juice 15ml Fresh Lemon Juice2 dashes Worcestershire SauceTabasco, Celery Salt, Pepper (Up to taste)",
+        "method": "Stir gently all the ingredients in a mixing glass with ice, pour into rocks glass.Note:If requested served with ice, pour into highball glass.",
+        "garnish": "Celery, Lemon Wedge (Optional)"
+    },
+    {
+        "title": "Cuba Libre",
+        "ingredients": "50ml White Rum 120ml Coca Cola 10ml Fresh Lime Juice",
+        "method": "Build all ingredients in a highball glass filled with ice.",
+        "garnish": "Garnish with lime wedge."
+    },
+    {
+        "title": "Hemingway Special",
+        "ingredients": "60ml Rum 40ml Grapefruit Juice 15ml Maraschino Luxardo 15ml Fresh Lime",
+        "method": "Pour all ingredients into a shaker with ice. Shake well and strain into a large cocktail glass.",
+        "garnish": "N/A"
+    },
+    {
+        "title": "Mai-Tai",
+        "ingredients": "30ml Amber Jamaican Rum 30ml Martinique Molasses Rhum* 15ml Orange Curacao 15ml Orgeat Syrup (Almond) 30ml Fresh Lime Juice 7.5ml Simple Syrup",
+        "method": "Add all ingredients into a shaker with ice. Shake and pour into a double rocks glass or a highball glass.* The Martinique molasses rum used by Trader Vic was not an Agricole rum but a type of “rummy” from molasses.",
+        "garnish": "Garnish with pineapple spear, mint leaves, and lime peel."
+    },
+    {
+        "title": "Moscow Mule",
+        "ingredients": "45ml Smirnoff Vodka 120ml Ginger Beer 10ml Fresh lime juice",
+        "method": "In a Mule Cup or rocks glass, combine the vodka and ginger beer. Add lime juice and gently stir to involve all ingredients.",
+        "garnish": "Garnish with a lime slice"
+    },
+    {
+        "title": "Singapore Sling",
+        "ingredients": "30ml Gin 15ml Cherry liqueur 7.5ml Cointreau 7.5ml DOM Bénédictine 120ml Fresh Pineapple Juice 15ml Fresh Lime Juice 10ml Grenadine SyrupA dash of Angostura bitters",
+        "method": "Pour all ingredients into a cocktail shaker filled with ice cubes. Shake well. Strain into Hurricane glass.",
+        "garnish": "Garnish with pineapple and maraschino cherry"
+    },
+    {
+        "title": "Caipirinha",
+        "ingredients": "60ml Cachaça1 Lime cut into small wedges 4 Teaspoons White Cane Sugar",
+        "method": "Place lime and sugar into a double old fashioned glass and muddle gently. Fill the glass with cracked ice and add Cachaça. Stir gently to involve ingredients.Note:CAIPIROSKA – Instead of Cachaça use Vodka;",
+        "garnish": "N/A"
+    },
+    {
+        "title": "French 75",
+        "ingredients": "30ml Gin 15ml Fresh Lemon Juice 15ml Sugar Syrup 60ml Champagne",
+        "method": "Pour all the ingredients, except Champagne, into a shaker. Shake well and strain into a Champagne flute. Top up with Champagne. Stir gently.",
+        "garnish": "N/A"
+    },
+    {
+        "title": "Horse's Neck",
+        "ingredients": "40ml Cognac 120ml Ginger AleDash of Angostura Bitters (optional)",
+        "method": "Pour Cognac and ginger ale directly into a highball glass with ice cubes. Stir gently.If preferred, add dashes of Angostura Bitter.",
+        "garnish": "Garnish with a rind of one lemon spiral."
+    },
+    {
+        "title": "Margarita",
+        "ingredients": "50ml Tequila 100% Agave 20ml Triple Sec 15ml Freshly Squeezed Lime Juice",
+        "method": "Add all ingredients into a shaker with ice.Shake and strain into a chilled cocktail glass",
+        "garnish": "Half salt rim (Optional)"
+    },
+    {
+        "title": "Pina Colada",
+        "ingredients": "50ml White Rum 30ml Coconut Cream 50ml Fresh Pineapple Juice",
+        "method": "Blend all the ingredients with ice in an electric blender, pour into a large glass, and serve with straws.",
+        "garnish": "Garnish with a slice of pineapple with a cocktail cherry."
+    },
+    {
+        "title": "Tequila Sunrise",
+        "INGREDIENTS": "50ml Irish Whiskey 120ml Hot coffee 50ml Fresh cream (Chilled) 1 teaspoon Sugar",
+        "METHOD": "Warm black coffee is poured into a pre-heated Irish coffee glass. Whiskey and at least one teaspoon of sugar is added and stirred until dissolved. Fresh thick chilled cream is carefully poured over the back of a spoon held just above the surface of the coffee. The layer of cream will float on the coffee without mixing. Plain sugar can be replaced with sugar syrup",
+        "GARNISH": "N/A"
+    },
+    {
+        "title": "Champagne Cocktail",
+        "ingredients": "90ml Chilled Champagne 10ml Cognac 2 dashes Angostura bittersFew drops of Grand Marnier (optional) 1 sugar cube",
+        "method": "Place the sugar cube with 2 dashes of bitters in a large Champagne glass, add the cognac. Pour gently chilled Champagne.",
+        "garnish": "Garnish with orange zest and maraschino cherry."
+    },
+    {
+        "title": "French Connection",
+        "ingredients": "35ml Cognac 35ml Amaretto",
+        "method": "Pour all ingredients directly into an old fashioned glass filled with ice cubes. Stir gently.",
+        "garnish": "N/A"
+    },
+    {
+        "title": "Irish Coffee",
+        "ingredients": "50ml Irish Whiskey 120ml Hot coffee 50ml Fresh cream (Chilled) 1 teaspoon Sugar",
+        "method": "Warm black coffee is poured into a pre-heated Irish coffee glass. Whiskey and at least one teaspoon of sugar is added and stirred until dissolved. Fresh thick chilled cream is carefully poured over the back of a spoon held just above the surface of the coffee. The layer of cream will float on the coffee without mixing. Plain sugar can be replaced with sugar syrup",
+        "garnish": "N/A"
+    },
+    {
+        "title": "Mimosa",
+        "ingredients": "75ml Fresh orange juice 75ml Prosecco",
+        "method": "Pour orange juice into a flute glass and gently pour the sparkling wine. Stir gently.Note:Also known as Buck’s Fizz.",
+        "garnish": "Garnish with an orange twist (optional)."
+    },
+    {
+        "title": "Pisco Sour",
+        "ingredients": "60ml Pisco 30ml Fresh Lemon Juice 20ml Simple Syrup 1 Raw Egg White",
+        "method": "Add all ingredients into a shaker with ice.Shake and strain into a chilled goblet glass.",
+        "garnish": "Few dashes of Amargo bitters on top as an aromatic garnish."
+    },
+    {
+        "title": "Vesper",
+        "ingredients": "45ml Gin 15ml Vodka 7.5ml Lillet Blanc",
+        "method": "Pour all ingredients into a cocktail shaker filled with ice cubes. Shake and strain into a chilled cocktail glass.",
+        "garnish": "Lemon zest"
+    }
+]
